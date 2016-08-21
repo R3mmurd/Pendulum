@@ -20,8 +20,9 @@
 #
 #  aledrums@gmail.com
 
+QMAKE_CXX = clang++
 
-QMAKE_CXXFLAGS += -std=c++11
+CONFIG += c++14
 
 QT +=  core widgets
 
